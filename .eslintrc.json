@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "extends": ["eslint:recommended", "google"],
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "env": {
+    "amd": true,
+    "browser": true,
+    "es6": true,
+    "jest": true,
+    "node": true,
+    "webextensions": true
+  }
+}

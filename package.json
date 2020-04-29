@@ -1,0 +1,19 @@
+{
+  "name": "unget-pocket",
+  "version": "1.0.0",
+  "description": "Redirect getpocket.com articles to their origin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielrozenberg/unget-pocket"
+  },
+  "main": "script.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "author": "Daniel Rozenberg",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-google": "0.14.0"
+  }
+}
