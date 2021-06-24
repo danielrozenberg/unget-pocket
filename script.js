@@ -1,11 +1,8 @@
 try {
-  const nextDataScriptElement = document.getElementById('__NEXT_DATA__');
-  const nextDataJson = JSON.parse(nextDataScriptElement.textContent);
-  const {publisherUrl} =
-      nextDataJson.props.initialState.syndicatedArticle.articleData;
-  if (publisherUrl) {
+  const {href: canonicalUrl} = document.querySelector('link[rel="canonical"]');
+  if (canonicalUrl) {
     document.body.style.display = 'none'; // Avoid FOUC.
-    document.location.replace(publisherUrl);
+    document.location.replace(canonicalUrl);
   }
 } catch (e) {
   console.exception('Unget Pocket could not redirect to origin page:', e);

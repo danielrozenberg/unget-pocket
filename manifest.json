@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Unget Pocket",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redirect getpocket.com articles to their origin",
   "author": "Daniel Rozenberg",
   "homepage_url": "https://github.com/danielrozenberg/unget-pocket",

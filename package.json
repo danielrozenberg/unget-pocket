@@ -1,6 +1,6 @@
 {
   "name": "unget-pocket",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redirect getpocket.com articles to their origin",
   "repository": {
     "type": "git",
